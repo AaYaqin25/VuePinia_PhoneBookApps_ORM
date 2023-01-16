@@ -1,5 +1,5 @@
 <script setup>
-import '../styling/all.css'
+import '../../styling/all.css'
 import UserList from './UserList.vue';
 import UserFormSearch from './UserFormSearch.vue';
 import UserFormAdd from './UserFormAdd.vue';

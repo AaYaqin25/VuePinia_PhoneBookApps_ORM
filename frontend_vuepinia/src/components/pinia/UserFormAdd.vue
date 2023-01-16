@@ -37,7 +37,7 @@ export default {
             </div>
             <div class="col-auto">
                 <button id='btnsave' class='btn btn-light'><i class="fa-regular fa-circle-check"></i> save</button>
-                <button id='btncancel' class='btn btn-light' @click="cancelClick"><i class="fa-regular fa-ban"></i>
+                <button id='btncancel' class='btn btn-light' @click="cancelClick"><i class="fa-solid fa-rotate-left"></i>
                     cancel</button>
             </div>
         </div>

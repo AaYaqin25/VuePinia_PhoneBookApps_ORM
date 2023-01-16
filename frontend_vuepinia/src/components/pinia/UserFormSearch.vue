@@ -45,7 +45,7 @@ export default {
                 <button class='btn btn-primary'><i class="fa-regular fa-circle-check"></i> search</button>
             </div>
             <div class="col-auto">
-                <button class='btn btn-dark' @click="reset" ><i class="fa-regular fa-circle-check"></i> reset</button>
+                <button class='btn btn-dark' @click="reset" ><i class="fa-solid fa-rotate"></i> reset</button>
             </div>
         </div>
     </form>

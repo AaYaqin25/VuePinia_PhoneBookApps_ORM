@@ -54,12 +54,12 @@ export default {
             <button id='btnedit' class='btn btn-light' @click="isEdit = true"><i class="fa-sharp fa-solid fa-pen"></i>
                 edit</button>
             <button id='btndelete' class='btn btn-light' @click="User.removeUser(value.id)"><i
-                    class="fa-solid fa-ban"></i>delete</button>
+                    class="fa-solid fa-ban"></i> delete</button>
         </td>
         <td v-else>
             <button class='btn btn-warning'
                 @click="User.resendUser({ id: value.id, name: value.name, phone: value.phone })"><i
-                    class="fa-solid fa-rotate-left"></i>resend</button>
+                    class="fa-solid fa-rotate-left"></i> resend</button>
         </td>
 
 
